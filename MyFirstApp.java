@@ -7,6 +7,6 @@ public class MyFirstApp {
         double d = Math.random();
         // this is a comment
         System.out.print(name);
-
+        //tesst
     }
 }
