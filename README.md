@@ -3,13 +3,12 @@
 **Course:** Introduction to Java Programming  
 **Unit:** Module 1 – Java Basics and Control Flow  
 **Based on:** *Head First Java, 3rd Edition*, Chapter 1  
-**Points:** 100
 
 ---
 
 ## 📚 Learning Objectives
 
-By the end of this assignment, you will be able to:
+By the end of this unit, you will be able to:
 
 1. Write and run a basic Java program with a `main` method.
 2. Declare and use variables of types `int`, `String`, and `double`.
@@ -17,6 +16,36 @@ By the end of this assignment, you will be able to:
 4. Write `if/else` conditional statements to branch logic.
 5. Use `System.out.print()` and `System.out.println()` to display output.
 6. Follow proper Java syntax rules (semicolons, curly braces, comments).
+
+---
+
+## 📖 Reading
+
+Complete the assigned reading **before** starting each activity. Links will be posted here by your instructor.
+
+| Assignment | Reading |
+|---|---|
+| MyFirstApp – Java Syntax Practice | *Link coming soon* |
+| Sharpen Your Pencil 1 – Easy Write Java | *Link coming soon* |
+| Sharpen Your Pencil 2 – Conditional Branching | *Link coming soon* |
+| BottleSong – Debug Activity | *Link coming soon* |
+| PhraseOMatic – Coding Activity | *Link coming soon* |
+
+---
+
+## 📋 Assignments
+
+This repository contains **5 assignments** for Chapter 1. Complete them in order.
+
+| # | File | Type | Description | Points |
+|---|---|---|---|---|
+| 1 | [`MyFirstApp.java`](MyFirstApp.java) | Coding | Write a program using variables, loops, and conditionals from scratch using TODOs | 100 pts |
+| 2 | [`SharpenYourPencil.md`](SharpenYourPencil.md) | Written | Read Java code snippets and explain in plain English what each line does | 20 pts |
+| 3 | [`Chapter1-conditionalbranching-SharpenPencil2.md`](Chapter1-conditionalbranching-SharpenPencil2.md) | Written + Fill-in | Fill in missing values in the Doobee program and answer explanation questions | 20 pts |
+| 4 | [`Chapter1-BottleSong-DebugActivity.md`](Chapter1-BottleSong-DebugActivity.md) + [`BottleSong.java`](BottleSong.java) | Debug + Written | Find and fix the flaw in the BottleSong program; answer reflection questions | 25 pts |
+| 5 | [`PhraseOMatic.java`](PhraseOMatic.java) | Coding | Build the Phrase-O-Matic program step by step using guided TODOs | Ungraded / Practice |
+
+**Total Graded Points: 165 pts**
 
 ---
 
@@ -34,7 +63,7 @@ Every Java statement ends with a semicolon (`;`). Classes and methods are wrappe
 
 ---
 
-## 📝 Assignment Instructions
+## 📝 Assignment 1 – MyFirstApp Java Syntax Practice (100 pts)
 
 You have been given a **starter file** — `MyFirstApp.java` — that contains the class structure and `TODO` comments. Your job is to fill in the code so that the program compiles and produces the correct output.
 
@@ -68,11 +97,7 @@ Review your code and make sure:
 - You have added at least **three comments** total across your code explaining what different sections do
 - Your code compiles and runs without errors
 
----
-
-## ✅ Expected Output
-
-When your program runs, it should produce output similar to this (the random number will vary):
+#### Expected Output
 
 ```
 x is 51i is now 0
@@ -88,7 +113,33 @@ i is now 9
 x isn't 10this line runs no matter what
 ```
 
-> **Note:** `System.out.print()` does not add a newline automatically. Only `System.out.println()` adds a newline. Your output spacing will match the example above.
+> **Note:** `System.out.print()` does not add a newline. Only `System.out.println()` adds a newline.
+
+See [`RUBRIC.md`](RUBRIC.md) for the full grading breakdown.
+
+---
+
+## ✏️ Assignment 2 – Sharpen Your Pencil 1: Easy Write Java (20 pts)
+
+Open [`SharpenYourPencil.md`](SharpenYourPencil.md). For each Java code snippet, write a plain-English explanation of what the line does. Three answers are already filled in as examples. Replace every `___________` with your own explanation, then commit and push.
+
+---
+
+## ✏️ Assignment 3 – Sharpen Your Pencil 2: Conditional Branching (20 pts)
+
+Open [`Chapter1-conditionalbranching-SharpenPencil2.md`](Chapter1-conditionalbranching-SharpenPencil2.md). Fill in the two missing values in the `Doobee` program so it produces the correct output, then answer the four explanation questions. Commit and push when done.
+
+---
+
+## 🐛 Assignment 4 – Debug Activity: BottleSong (25 pts)
+
+Open [`BottleSong.java`](BottleSong.java) — it compiles and runs, but the output has a flaw. Open [`Chapter1-BottleSong-DebugActivity.md`](Chapter1-BottleSong-DebugActivity.md) and follow the three parts: spot the flaw, fix the code, and answer the reflection questions. Push both files when done.
+
+---
+
+## 💻 Assignment 5 – Coding Activity: PhraseOMatic (Practice)
+
+Open [`PhraseOMatic.java`](PhraseOMatic.java). Follow the five guided TODO steps to build a program that randomly generates business buzzword phrases. This is an ungraded practice activity — focus on getting it to compile and run.
 
 ---
 
@@ -99,17 +150,16 @@ x isn't 10this line runs no matter what
    ```bash
    git clone <your-repo-url>
    ```
-3. Open `MyFirstApp.java` in your IDE (VS Code, IntelliJ, etc.).
-4. Read the `TODO` comments and complete each task.
-5. Compile and test your program:
+3. Work through the assignments in order (1 → 5).
+4. Compile and test any `.java` files:
    ```bash
-   javac MyFirstApp.java
-   java MyFirstApp
+   javac FileName.java
+   java FileName
    ```
-6. Once it works, commit and push your changes:
+5. Commit and push your work regularly:
    ```bash
-   git add MyFirstApp.java
-   git commit -m "Complete Chapter 1 syntax assignment"
+   git add .
+   git commit -m "Your message here"
    git push
    ```
 
@@ -119,27 +169,32 @@ x isn't 10this line runs no matter what
 
 | File | Description |
 |---|---|
-| `MyFirstApp.java` | Your starter file — **edit this file only** |
-| `README.md` | Assignment instructions (this file) |
-| `RUBRIC.md` | Detailed point breakdown and grading criteria |
+| `MyFirstApp.java` | Assignment 1 starter file |
+| `SharpenYourPencil.md` | Assignment 2 fill-in activity |
+| `Chapter1-conditionalbranching-SharpenPencil2.md` | Assignment 3 fill-in activity |
+| `Chapter1-BottleSong-DebugActivity.md` | Assignment 4 debug questions |
+| `BottleSong.java` | Assignment 4 buggy starter file |
+| `PhraseOMatic.java` | Assignment 5 guided coding starter |
+| `RUBRIC.md` | Grading rubric for Assignment 1 |
+| `README.md` | This file |
 
 ---
 
 ## ⚠️ Submission Requirements
 
-- Push your completed `MyFirstApp.java` to your GitHub Classroom repo before the deadline.
-- Do **not** submit the compiled `.class` file — only your `.java` source file will be graded.
-- Your code must **compile without errors** to receive full credit on Tasks 1–3.
+- Push all completed files to your GitHub Classroom repo before the deadline.
+- Do **not** submit compiled `.class` files — only `.java` and `.md` source files will be graded.
+- All `.java` files must **compile without errors** to receive full coding credit.
 
 ---
 
 ## 💡 Hints
 
-- Revisit the *Syntax Fun* box from Chapter 1 (your PDF handout) for a quick reference on rules.
+- Revisit the *Syntax Fun* box from Chapter 1 for a quick reference on rules.
 - Use `String.equals()` instead of `==` when comparing Strings.
 - `Math.random()` returns a `double` between `0.0` (inclusive) and `1.0` (exclusive).
 - If you get a compile error, read the error message carefully — it will tell you the line number.
 
 ---
 
-*Assignment based on Head First Java, 3rd Edition by Kathy Sierra & Bert Bates (O'Reilly Media, 2022).*
+*Based on Head First Java, 3rd Edition by Kathy Sierra & Bert Bates (O'Reilly Media, 2022).*
