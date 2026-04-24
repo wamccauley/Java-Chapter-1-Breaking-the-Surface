@@ -40,9 +40,9 @@ This repository contains **5 assignments** for Chapter 1. Complete them in order
 | # | File | Type | Description | Points |
 |---|---|---|---|---|
 | 1 | [`MyFirstApp.java`](MyFirstApp.java) | Coding | Write a program using variables, loops, and conditionals from scratch using TODOs | 100 pts |
-| 2 | [`SharpenYourPencil.md`](SharpenYourPencil.md) | Written | Read Java code snippets and explain in plain English what each line does | 20 pts |
-| 3 | [`Chapter1-conditionalbranching-SharpenPencil2.md`](Chapter1-conditionalbranching-SharpenPencil2.md) | Written + Fill-in | Fill in missing values in the Doobee program and answer explanation questions | 20 pts |
-| 4 | [`Chapter1-BottleSong-DebugActivity.md`](Chapter1-BottleSong-DebugActivity.md) + [`BottleSong.java`](BottleSong.java) | Debug + Written | Find and fix the flaw in the BottleSong program; answer reflection questions | 25 pts |
+| 2 | [`113_Look-How-Easy-It-Is-To-Write-Java_SharpenPencil1.md`](113_Look-How-Easy-It-Is-To-Write-Java_SharpenPencil1.md) | Written | Read Java code snippets and explain in plain English what each line does | 20 pts |
+| 3 | [`118_Conidtional-Branching_SharpenPencil2.md`](118_Conidtional-Branching_SharpenPencil2.md) | Written + Fill-in | Fill in missing values in the Doobee program and answer explanation questions | 20 pts |
+| 4 | [`119_Coding-A-Serious-Business-Application_Activity.md`](119_Coding-A-Serious-Business-Application_Activity.md) + [`BottleSong.java`](BottleSong.java) | Debug + Written | Find and fix the flaw in the BottleSong program; answer reflection questions | 25 pts |
 | 5 | [`PhraseOMatic.java`](PhraseOMatic.java) | Coding | Build the Phrase-O-Matic program step by step using guided TODOs | Ungraded / Practice |
 
 **Total Graded Points: 165 pts**
