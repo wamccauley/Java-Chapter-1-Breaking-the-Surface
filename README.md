@@ -121,19 +121,19 @@ See [`RUBRIC.md`](RUBRIC.md) for the full grading breakdown.
 
 ## ✏️ Assignment 2 – Sharpen Your Pencil 1: Easy Write Java (20 pts)
 
-Open [`SharpenYourPencil.md`](SharpenYourPencil.md). For each Java code snippet, write a plain-English explanation of what the line does. Three answers are already filled in as examples. Replace every `___________` with your own explanation, then commit and push.
+Open [`113_Look-How-Easy-It-Is-To-Write-Java_SharpenPencil1.md`](113_Look-How-Easy-It-Is-To-Write-Java_SharpenPencil1.md). For each Java code snippet, write a plain-English explanation of what the line does. Three answers are already filled in as examples. Replace every `___________` with your own explanation, then commit and push.
 
 ---
 
 ## ✏️ Assignment 3 – Sharpen Your Pencil 2: Conditional Branching (20 pts)
 
-Open [`Chapter1-conditionalbranching-SharpenPencil2.md`](Chapter1-conditionalbranching-SharpenPencil2.md). Fill in the two missing values in the `Doobee` program so it produces the correct output, then answer the four explanation questions. Commit and push when done.
+Open [`118_Conidtional-Branching_SharpenPencil2.md`](118_Conidtional-Branching_SharpenPencil2.md). Fill in the two missing values in the `Doobee` program so it produces the correct output, then answer the four explanation questions. Commit and push when done.
 
 ---
 
 ## 🐛 Assignment 4 – Debug Activity: BottleSong (25 pts)
 
-Open [`BottleSong.java`](BottleSong.java) — it compiles and runs, but the output has a flaw. Open [`Chapter1-BottleSong-DebugActivity.md`](Chapter1-BottleSong-DebugActivity.md) and follow the three parts: spot the flaw, fix the code, and answer the reflection questions. Push both files when done.
+Open [`BottleSong.java`](BottleSong.java) — it compiles and runs, but the output has a flaw. Open [`119_Coding-A-Serious-Business-Application_Activity.md`](119_Coding-A-Serious-Business-Application_Activity.md) and follow the three parts: spot the flaw, fix the code, and answer the reflection questions. Push both files when done.
 
 ---
 
@@ -170,9 +170,9 @@ Open [`PhraseOMatic.java`](PhraseOMatic.java). Follow the five guided TODO steps
 | File | Description |
 |---|---|
 | `MyFirstApp.java` | Assignment 1 starter file |
-| `SharpenYourPencil.md` | Assignment 2 fill-in activity |
-| `Chapter1-conditionalbranching-SharpenPencil2.md` | Assignment 3 fill-in activity |
-| `Chapter1-BottleSong-DebugActivity.md` | Assignment 4 debug questions |
+| `113_Look-How-Easy-It-Is-To-Write-Java_SharpenPencil1.md` | Assignment 2 fill-in activity |
+| `118_Conidtional-Branching_SharpenPencil2.md` | Assignment 3 fill-in activity |
+| `118_Conidtional-Branching_SharpenPencil2.md` | Assignment 4 debug questions |
 | `BottleSong.java` | Assignment 4 buggy starter file |
 | `PhraseOMatic.java` | Assignment 5 guided coding starter |
 | `RUBRIC.md` | Grading rubric for Assignment 1 |
