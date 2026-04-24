@@ -9,6 +9,11 @@ public class MyFirstApp {
         System.out.print(name);
         //tesst
         //test1
-        
+        while (x > 12) {
+            x = x - 1;
+        }
+        for (int i = 0; i < 10; i = i + 1) {
+            System.out.print("i is now " +  i);
+        }
     }
 }
