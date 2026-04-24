@@ -5,9 +5,9 @@
 | # | Assignment | File(s) | Points |
 |---|---|---|---|
 | 1 | Java Syntax Practice | `MyFirstApp.java` | 100 pts |
-| 2 | Sharpen Your Pencil 1 | `Chapter1-easywritejava-SharpenPencil1.md` | 20 pts |
-| 3 | Sharpen Your Pencil 2 | `Chapter1-conditionalbranching-SharpenPencil2.md` | 20 pts |
-| 4 | Debug Activity: BottleSong | `Chapter1-BottleSong-DebugActivity.md` + `BottleSong.java` | 25 pts |
+| 2 | Sharpen Your Pencil 1 | `113_Look-How-Easy-It-Is-To-Write-Java_SharpenPencil1.md` | 20 pts |
+| 3 | Sharpen Your Pencil 2 | `118_Conidtional-Branching_SharpenPencil2.md` | 20 pts |
+| 4 | Debug Activity: BottleSong | `119_Coding-A-Serious-Business-Application_Activity.md` + `BottleSong.java` | 25 pts |
 | 5 | Coding Activity: PhraseOMatic | `PhraseOMatic.java` | Practice (ungraded) |
 
 ---
